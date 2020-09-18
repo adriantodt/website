@@ -1,0 +1,1 @@
+data class Dimension(val height: Int, val width: Int)

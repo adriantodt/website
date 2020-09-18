@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>AdrianTodt</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.min.css">
+</head>
+<body>
+    <canvas class="my-1 px-1 rounded canvas-logo" id="logo">
+        <h1>AdrianTodt</h1>
+    </canvas>
+    <div class="container">
+
+        <h2>Who I am</h2>
+
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col px-1 px-sm-2 px-md-3 px-lg-4 px-xl-5">
+                        <img src="img/ifsp.min.jpg" class="img-fluid rounded">
+                    </div>
+                    <div class="col px-1 px-sm-2 px-md-3 px-lg-4 px-xl-5">
+                        <img src="img/ufscar.min.jpg" class="img-fluid rounded">
+                    </div>
+                    <div class="col px-1 px-sm-2 px-md-3 px-lg-4 px-xl-5">
+                        <img src="img/adriantodt.svg" class="img-fluid rounded">
+                    </div>
+                    <div class="col px-1 px-sm-2 px-md-3 px-lg-4 px-xl-5">
+                        <img src="img/cafeteria.svg" class="img-fluid rounded-circle">
+                    </div>
+                    <div class="col px-1 px-sm-2 px-md-3 px-lg-4 px-xl-5">
+                        <img src="img/aru.min.jpg" class="img-fluid rounded-circle">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <ul>
+            <li>Self-taught programmer since 2013</li>
+            <ul>
+                <li>Started coding in Lua, using ComputerCraft and Lua command-line, then batch files.</li>
+                <li>Coded websites in HTML &amp; PHP, then small projects in Windows Forms &amp; WPF, and finally small Unity3D games.</li>
+                <li>Learned Java doing Minecraft mods, then coded a Discord bot in Java with a friend and it got <strong>big</strong>.</li>
+                <li>Learned Kotlin, coded another Discord bot and published a dozen open-source libraries while doing it.</li>
+            </ul>
+            <li>Computer technician, graduated from Federal Institute of São Paulo (2015-2017)</li>
+            <li>Computer science bachelor student at Federal University of São Carlos (2018-20??)</li>
+            <li>Loves back-end, web programming, Docker containers and Kotlin.</li>
+        </ul>
+
+        <div class="alert alert-info text-center" role="alert">
+            If you need any help with the things I made or helped, <a href="#find-me">contact me</a>.
+            The fastest way to get my response is through <b>Discord</b>.
+        </div>
+
+        <hr>
+
+        <h2>Things I made</h2>
+
+        <div class="card mb-2" id="lin">
+            <div class="card-body">
+                <div class="media">
+                    <img src="img/lin.min.jpg" class="mr-3 thumbnail rounded">
+                    <div class="media-body">
+                        <h3 class="mt-0">Lin <small>(<a href="https://github.com/adriantodt/lin/">GitHub</a>)</small></h3>
+                        <p><strong>Lin</strong> is a scripting programming language inspired by Kotlin.
+                            It started as a effort to parse Kotlin script files, but soon become different,
+                            borrowing elements from JavaScript and Rust.</p>
+                        <p>The project is written entirely in Kotlin and uses <a href="#tartar">Tartar</a> as it's lexing, grammatical and parsing engine.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-2" id="tartar">
+            <div class="card-body">
+                <h3 class="mt-0">Tartar <small>(<a href="https://github.com/adriantodt/tartar/">GitHub</a>)</small></h3>
+                <p><strong>Tartar</strong> is a Kotlin trie-based lexical analysis and pratt-parsing library,
+                    configurable as a DSL.</p>
+                <p>It is currently implemented in Kotlin/JVM, but there are plans to make it a Kotlin multi-platform library.</p>
+            </div>
+        </div>
+
+        <div class="card mb-2" id="aru">
+            <div class="card-body">
+                <div class="media">
+                    <img src="img/aru.min.jpg" class="mr-3 thumbnail rounded-circle">
+                    <div class="media-body">
+                        <h3 class="mt-0">Aru! <small>(<a href="https://github.com/arudiscord/aru/">GitHub</a> &ndash; <a href="https://discord.gg/r7XNb9C">Discord</a>)</small></h3>
+                        <p><strong>Aru</strong> is a Discord bot made in Kotlin that I created after taking a break from Mantaro, another Discord bot.</p>
+                        <p>
+                            Since the <a href="https://medium.com/@david.alejandro.rubio/the-great-music-bot-apocalypse-on-october-and-what-theres-to-tell-1701a1b49f35">Music bot apocalypse</a>,
+                            Aru was open-sourced and is running with a private build which doesn't include music anymore.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-2" id="psi">
+            <div class="card-body">
+                <h3 class="mt-0">Psi <small>(<a href="https://github.com/arudiscord/psi/">GitHub</a>)</small></h3>
+                <p><strong>Psi</strong> is a <a href="#catnip">Catnip</a>-based Discord bot Framework that I wrote in Kotlin.</p>
+                <p>It features a command framework with <a href="https://github.com/Kodein-Framework/Kodein-DI">Kodein</a>-based dependency injection and modular argument parsing</p>
+            </div>
+        </div>
+
+        <div class="card mb-2" id="aru-libraries">
+            <div class="card-body">
+                <h3 class="mt-0">Aru! Libraries</h3>
+                <div class="row">
+                    <div class="col-sm-6 my-2">
+                        <h4 class="mt-0">EventPipes <small>(<a href="https://github.com/arudiscord/eventpipes">GitHub</a>)</small></h4>
+                        Fully configured lightweight event publishing/subscribing library, made in pure Java.
+                    </div>
+                    <div class="col-sm-6 my-2">
+                        <h4 class="mt-0">FakeNetwork <small>(<a href="https://github.com/arudiscord/fakenetwork">GitHub</a>)</small></h4>
+                        A fake Socket/DatagramSocket implementation for creating a simple, virtual network inside your JVM.
+                    </div>
+                    <div class="col-sm-6 my-2">
+                        <h4 id="dicenotation" class="mt-0">DiceNotation Library <small>(<a href="https://github.com/arudiscord/dice-notation">GitHub</a>)</small></h4>
+                        A full fledged Dice Notation (a.k.a <code>d20 + 2</code>) Java library.
+                    </div>
+                    <div class="col-sm-6 my-2">
+                        <h4 class="mt-0">Kodein JIT Bindings <small>(<a href="https://github.com/arudiscord/kodein-jit-bindings">GitHub</a>)</small></h4>
+                        An extension for Kodein DI that can resolve bindings at runtime.
+                    </div>
+                    <div class="col-sm-6 my-2">
+                        <h4 class="mt-0">Resources <small>(<a href="https://github.com/arudiscord/resources">GitHub</a>)</small></h4>
+                        Lazily-initialized resource loading and Holder-like patterns.
+                    </div>
+                    <div class="col-sm-6 my-2">
+                        <h4 class="mt-0">Process Monitor <small>(<a href="https://github.com/arudiscord/processmonitor">GitHub</a>)</small></h4>
+                        Java Process Monitoring, which leverages JMX beans to monitor it.
+                    </div>
+                    <div class="col-sm-6 my-2">
+                        <h4 class="mt-0">RedditStream <small>(<a href="https://github.com/arudiscord/redditstream">GitHub</a>)</small></h4>
+                        ProjectReactor-based Reddit crawler in Java 11. <span class="badge badge-secondary">Archived</span>
+                    </div>
+                    <div class="col-sm-6 my-2">
+                        <h4 class="mt-0">Patreon Webhooks Java <small>(<a href="https://github.com/arudiscord/patreon-webhooks-java">GitHub</a>)</small></h4>
+                        A Java library for parsing JSON data from Patreon's APIv2 webhooks as Java entities. <span class="badge badge-secondary">Archived</span>
+                    </div>
+                    <div class="col-sm-6 my-2">
+                        <h4 class="mt-0">Snowflake API <small>(<a href="https://github.com/arudiscord/snowflake">GitHub</a>)</small></h4>
+                        A simple but complete Snowflake generation Java API. <span class="badge badge-secondary">Archived</span>
+                    </div>
+                    <div class="col-sm-6 my-2">
+                        <h4 class="mt-0">Local Snowflakes <small>(<a href="https://github.com/arudiscord/snowflake-local">GitHub</a>)</small></h4>
+                        A implementation of Aru Snowflake API for local snowflake generation, implemented in Java. <span class="badge badge-secondary">Archived</span>
+                    </div>
+                    <div class="col-sm-6 my-2">
+                        <h4 class="mt-0">AndeClient <small>(<a href="https://github.com/arudiscord/andeclient">GitHub</a>)</small></h4>
+                        A Java 11, Library-independent, client implementation for <a href="https://github.com/natanbc/andesite-node">andesite-node</a>,
+                        a (discontinued) standalone audio streaming node. <span class="badge badge-secondary">Archived</span>
+                    </div>
+                    <div class="col-sm-6 my-2">
+                        <h4 class="mt-0">catnip-entityfinder <small>(<a href="https://github.com/arudiscord/catnip-entityfinder">GitHub</a>)</small></h4>
+                        The standalone EntityFinder from <a href="https://github.com/queer/catnip-utilities">catnip-utilities</a>,
+                        that I ported from <a href="https://github.com/JDA-Applications/JDA-Utilities">JDA-Utilities</a>. <span class="badge badge-secondary">Archived</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-2" id="mc-mods">
+            <div class="card-body">
+                <div class="media">
+                    <img src="img/mc-mods.min.jpg" class="mr-3 thumbnail rounded">
+                    <div class="media-body">
+                        <h3>Minecraft Mods</h3>
+                        <p>During 2015-2016, I made some Minecraft mods. <del>I may get back to it someday...</del></p>
+                        <p>Since 2020's global pandemic, I got back to doing Minecraft mods using <a href="https://fabricmc.net/">Fabric</a>.</p>
+                        <div class="media mt-2">
+                            <img src="img/winged.min.png" class="mr-3 mini-thumbnail rounded">
+                            <div class="media-body">
+                                <h4>Winged  <small>(<a href="https://github.com/adriantodt/winged">GitHub</a> - <a href="https://www.curseforge.com/minecraft/mc-mods/winged/">CurseForge</a>)</small></h4>
+                                <p>A mod that add permanent wings as a replacement to Minecraft's <a href="https://minecraft.gamepedia.com/Elytra">Elytras</a>.</p>
+                            </div>
+                        </div>
+                        <div class="media mt-2">
+                            <img src="img/fallflying.min.jpg" class="mr-3 mini-thumbnail rounded">
+                            <div class="media-body">
+                                <h4>FallFlyingLib  <small>(<a href="https://github.com/adriantodt/FallFlyingLib">GitHub</a> - <a href="https://www.curseforge.com/minecraft/mc-mods/fallflyinglib/">CurseForge</a>)</small></h4>
+                                <p>A Fabric Library to handle multiple mobs that override Minecraft's Elytra flight behaviour.</p>
+                            </div>
+                        </div>
+                        <div class="media mt-2">
+                            <img src="img/dragontech.min.jpg" class="mr-3 mini-thumbnail rounded">
+                            <div class="media-body">
+                                <h4>DragonTech  <small>(<a href="https://github.com/adriantodt/dragontech">GitHub</a> - <a href="https://www.curseforge.com/minecraft/mc-mods/dragontech/">CurseForge</a>)</small></h4>
+                                <p>A magitech mod about dragon scales and virus.</p>
+                            </div>
+                        </div>
+                        <div class="media mt-2">
+                            <img src="img/moarrecipes.min.jpg" class="mr-3 mini-thumbnail rounded">
+                            <div class="media-body">
+                                <h4>Moar Recipes <small>(<a href="https://www.curseforge.com/minecraft/mc-mods/moarrecipes/">CurseForge</a>)</small></h4>
+                                <p>A simple mod which adds a bunch of recipes that look useful.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-2" id="nanoflakes">
+            <div class="card-body">
+                <div class="media">
+                    <img src="img/nanoflakes.min.png" class="mr-3 thumbnail rounded-circle">
+                    <div class="media-body">
+                        <h3 class="mt-0">Nanoflakes <small>(<a href="https://github.com/nanoflakes/nanoflakes">GitHub</a>)</small></h3>
+                        <p><strong>Nanoflakes</strong> is a rewrite of the specification of Twitter's snowflakes.
+                            The goal of Nanoflakes is to implement a unique ID format, as small as possible.
+                            Nanoflakes are backwards-compatible with Twitter Snowflakes, fitting in a 64-bit integer.</p>
+                        <p>A <a href="https://github.com/nanoflakes/nanoflakes-java">reference Java implementation</a> of Nanoflakes is available.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-2" id="shootingstars">
+            <div class="card-body">
+                <div class="media">
+                    <img src="img/shootingstars.min.jpg" class="mr-3 thumbnail rounded">
+                    <div class="media-body">
+                        <h3 class="mt-0">ShootingStarts</h3>
+                        <h4 class="mt-2">JPanel Edition <small>(<a href="https://github.com/adriantodt/shootingstars-jpanel">GitHub</a>)</small></h4>
+                        <p>Simple JPanel-based procedural shooting stars, written in Kotlin. Used to make this website's logo.</p>
+                        <h4 class="mt-2">Web Edition <small>(<a href="https://github.com/adriantodt/shootingstars-js">GitHub</a> - <a href="https://adriantodt.net/shootingstars">Link</a>)</small></h4>
+                        <p>A standalone version of this website's logo. Made with Kotlin/JS.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-2" id="cafeteria">
+            <div class="card-body">
+                <div class="media">
+                    <img src="img/cafeteria.svg" class="mr-3 thumbnail rounded">
+                    <div class="media-body">
+                        <h3 class="mt-0">Cafeteria Development <small>(<a href="https://discord.gg/G4PjhEf">Discord</a>)</small></h3>
+                        <p><b>Cafeteria Development</b> is a support group of me and some friends.
+                            It is, by far, probably the quickest way to contact me about any of my projects.
+                            Also, it managed to reach over 200 members and I'm pretty proud of it.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-2" id="tricks">
+            <div class="card-body">
+                <div class="media">
+                    <img src="img/adriantodt.svg" class="mr-3 thumbnail rounded">
+                    <div class="media-body">
+                        <h3 class="mt-0">AdrianTodt's Website Tricks</h3>
+                        <p class="mb-2">Here's some cool website tricks you can access. No Ads. Dark Theme. <i>As every website should be.</i></p>
+                        <a href="https://adriantodt.net/clock/" class="btn btn-outline-primary btn-sm">Clock</a>
+                        <a href="https://adriantodt.net/dice/" class="btn btn-outline-primary btn-sm">Dice Rolling</a>
+                        <a href="https://adriantodt.net/shootingstars/" class="btn btn-outline-primary btn-sm">Shooting Stars</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-2" id="everything-else">
+            <div class="card-body">
+                <h4 class="mt-0">Everything else</h4>
+                <div class="row">
+                    <div class="col-sm-6 my-2">
+                        <h5 class="mt-0">All my other Discord Bots</h5>
+                        <ul class="mb-1">
+                            <li><a href="https://github.com/adriantodt/DavidBot">DavidBot</a>: A general-purpose, public bot.</li>
+                            <li><a href="https://github.com/adriantodt/MiyukiBot">MiyukiBot</a>: Another general-purpose, public bot.</li>
+                            <li><a href="https://github.com/adriantodt/HybridverseBot">HybridverseBot</a>: A RPG bot made for a Discord RPG.</li>
+                            <li><a href="https://github.com/adriantodt/BRjDevsBot">BRjDevsBot</a>: A butler bot made for a guild.</li>
+                            <li><a href="https://github.com/adriantodt/EarthChanBot">EarthChanBot</a>: A general-purpose bot made for EchanAnimu guild.</li>
+                        </ul>
+                        <h5 class="mt-2">generic-names-list.txt <small>(<a href="https://gist.github.com/adriantodt/e75d184e92a67cd49ba88998274bad78">Gist</a>)</small></h5>
+                        A generated list with over 8000 generic names to use as branding.
+                        <h5 class="mt-2">install-trello-linux.sh <small>(<a href="https://gist.github.com/adriantodt/5e0efc9f1e484f3031d7c9bdd6448058">Gist</a>)</small></h5>
+                        A small script to install Trello Desktop on Linux.
+                        <h5 class="mt-2">GradleCacheToMavenLocal <small>(<a href="https://github.com/adriantodt/GradleCacheToMavenLocal">GitHub</a>)</small></h5>
+                        A simple tool that copies your Gradle cache into your Maven Local Repository. Useful when you're out of internet.
+                    </div>
+                    <div class="col-sm-6 my-2">
+                        <h5 class="mt-0">Shitposting mods</h5>
+                        <ul class="mb-1">
+                            <li><a href="https://www.curseforge.com/minecraft/mc-mods/totallybalancedfallflying">TBFF</a>: Everyone can elytra flight.</li>
+                            <li><a href="https://www.curseforge.com/minecraft/mc-mods/totallybalancedcreativeflying">TBCF</a>: Everyone can creative flight.</li>
+                        </ul>
+                        <h5 class="mt-2">piexchange <small>(<a href="https://github.com/adriantodt/piexchange">GitHub</a>)</small></h5>
+                        A proof-of-concept fullscreen 16:9 Square Tile Menu using HTML5's Flex, intended to be used to display live information, like stock prices.
+                        <h5 class="mt-2">alpine-zlib-jattach <small>(<a href="https://github.com/adriantodt/alpine-zlib-jattach">GitHub</a> - <a href="https://hub.docker.com/r/adriantodt/alpine-zlib-jattach">DockerHub</a>)</small></h5>
+                        Docker Container based off <a href="https://alpinelinux.org/">Alpine</a>, targeted at making containers with jlink-ed JVMs and embedding <a href="https://github.com/apangin/jattach">jattach</a>. <span class="badge badge-secondary">Archived</span>
+                        <h5 class="mt-2">JVA <small>(<a href="https://github.com/adriantodt/JVA">GitHub</a> - <a href="https://hub.docker.com/r/adriantodt/alpine-zlib-jattach">DockerHub</a>)</small></h5>
+                        Java VLC API, which abuses VLC's HTTP interface. <span class="badge badge-secondary">Archived</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <h2>Things I helped</h2>
+
+        <div class="card mb-2" id="mantaro">
+            <div class="card-body">
+                <div class="media">
+                    <img src="img/mantaro.min.jpg" class="mr-3 thumbnail rounded-circle">
+                    <div class="media-body">
+                        <h3 class="mt-0">Mantaro <small>(<a href="https://github.com/mantaro/mantarobot/">GitHub</a> &ndash; <a href="https://mantaro.site">Website</a>)</small></h3>
+                        <p><strong>Mantaro</strong> is a Discord bot made with <a href="https://github.com/Kodehawa">Kodehawa</a> and it got <strong>big</strong>.</p>
+                        <p>I'm not an active developer anymore, but I contributed a lot of code during the 3 years of active development.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-2" id="kaiper">
+            <div class="card-body">
+                <div class="media">
+                    <img src="img/kaiper.min.jpg" class="mr-3 thumbnail rounded-circle">
+                    <div class="media-body">
+                        <h3 class="mt-0">Kaiper <small>(<a href="https://github.com/Avarel/Kaiper/">GitHub</a>)</small></h3>
+                        <p><strong>Kaiper</strong> is a functional scripting language for the Java programming language, which supports embedded execution in the runtime using the interpreter or the custom bytecode VM.</p>
+                        <p>This project was started by <a href="https://github.com/Avarel">Avarel</a> and I contributed with a bytecode and a stack-based virtual machine.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-2" id="rethinkdb-java">
+            <div class="card-body">
+                <div class="media">
+                    <img src="img/rethinkdb.min.jpg" class="mr-3 thumbnail rounded-circle">
+                    <div class="media-body">
+                        <h3 class="mt-0">RethinkDB Java Driver <small>(<a href="https://github.com/rethinkdb/rethinkdb-java/">GitHub</a>)</small></h3>
+                        <p>I'm currently the main developer for the RethinkDB Java Driver, and published versions <strong>2.4.0</strong> onward of the driver.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-2" id="catnip">
+            <div class="card-body">
+                <div class="media">
+                    <div class="media-body">
+                        <h3 class="mt-0">Catnip <small>(<a href="https://github.com/mewna/catnip/">GitHub</a>)</small></h3>
+                        <p><strong>Catnip</strong> is a Discord API wrapper in Java, fully async/reactive, built on top of RxJava.</p>
+                        <p>I made some contributions to getting version <strong>2.0</strong> released, such as implementing the event dispatcher.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="pt-4 my-md-5 pt-md-5">
+            <div class="row">
+                <div class="col-12 col-md">
+                    <h2 class="m-0">AdrianTodt</h2>
+                    <small class="d-block mb-3 text-muted">&copy; 2020</small>
+                </div>
+                <div class="col-6 col-md">
+                    <h5 id="find-me">Find me</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><span class="text-muted">Discord:</span> AdrianTodt#0722</li>
+                        <li><a class="text-muted" href="https://twitter.com/adriantodt">Twitter</a></li>
+                        <li><a class="text-muted" href="https://github.com/adriantodt">GitHub</a></li>
+                        <li><a class="text-muted" href="https://gitlab.com/adriantodt">GitLab</a></li>
+                        <li><a class="text-muted" href="https://hub.docker.com/u/adriantodt">DockerHub</a></li>
+                        <li><a class="text-muted" href="https://www.curseforge.com/members/adriantodt">CurseForge</a></li>
+                        <li><a class="text-muted" href="https://steamcommunity.com/id/adriantodt/">Steam</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-md">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="text-muted" href="https://billing.galaxygate.net/aff.php?aff=5">GalaxyGate Affiliate Link</a></li>
+                        <li><a class="text-muted" href="https://github.com/adriantodt/adriantodt.github.io">This website's repository</a></li>
+                        <li><a class="text-muted" href="https://github.com/adriantodt/website">This website's source</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap.native@2.0.27/dist/bootstrap-native-v4.min.js"></script>
+    <script src="website.js"></script>
+</body>
+</html>

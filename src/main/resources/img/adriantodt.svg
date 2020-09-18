@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="3000">
+<g transform="translate(25,600)">
+<polygon points="1250,0 2700,0 2950,600 1000,600" style="fill:#f60"/>
+<polygon points="1950,600 2450,1800 2950,1800 2450,600" style="fill:#d50a00"/>
+<polygon points="1250,0 2000,1800 1500,1800 750,0" style="fill:#f80"/>
+<polygon points="0,1800 750,0 1250,0 500,1800" style="fill:#fc0"/>
+</g>
+</svg>
+<!--
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="1200" width="1200">
+<g transform="translate(150,175)">
+<polygon points="0,150 450,0 900,150 450,300" style="fill:#fc0"/>
+<polygon points="0,150 450,0 900,150 450,300" style="fill:#fc0"/>
+<polygon points="0,150 0,700 450,850 450,300" style="fill:#fa0"/>
+<polygon points="900,150 900,700 450,850 450,300" style="fill:#f90"/>
+<polygon points="450,050 150,150 300,200 450,150" style="fill:#f60"/>
+<polygon points="450,050 750,150 600,200 450,150" style="fill:#f80"/>
+<polygon points="450,250 600,200 450,150 300,200" style="fill:#630"/>
+<polygon points="112.5,279.15 112.5,645.75 337.5,720.75 337.5,629.1 187.5,579.1 187.5,395.8 337.5,445.8 337.5,354.15" style="fill:#fff"/>
+<polygon points="712.5,304.15 637.5,329.15 637.5,420.8 712.5,445.8 712.5,579.1 637.5,604.1 637.5,695.75 787.5,745.75 862.5,720.75 862.5,354.15 " style="fill:#ffff00"/>
+<polygon points="637.5,420.8 712.5,445.8 712.5,629.1 637.5,604.1 637.5,695.75 787.5,745.75 787.5,379.15 637.5,329.15" style="fill:#ffd400"/>
+<polygon points="637.5,604.1 712.5,579.1 712.5,629.1" style="fill:#ffe500"/>
+<polygon points="712.5,304.15 637.5,329.15 787.5,379.15 862.5,354.15" style="fill:#fff700"/>
+<polygon points="787.5,379.15 862.5,354.15 862.5,720.75 787.5,745.75" style="fill:#ffb300"/>
+</g>
+</svg>
+-->
+
